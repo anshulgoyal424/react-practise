@@ -5,9 +5,12 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Main from "./components/MainContent"
 import ToDo from "./components/ToDo"
+import Times from "./components/time"
+import ContactCard from "./components/ContactCard"
 
 function App() {
   return (
+    // <Times/>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
@@ -30,7 +33,40 @@ function App() {
     //   <Footer/>
       
     // </div>
-    <ToDo/>
+    // <div className="todo-list">
+    //   <ToDo/>
+    //   <ToDo/>
+    //   <ToDo/>
+    // </div>
+    <div>
+      <ContactCard
+      name="Anshul"
+      imgUrl="http://placekitten.com/300/200"
+      phone="9874563210"
+      email="abc@abc.com"
+      />
+
+      <ContactCard
+      name="Anshul"
+      imgUrl="http://placekitten.com/400/200"
+      phone="9874563210"
+      email="abc@abc.com"
+      />
+
+      <ContactCard
+      name="Anshul"
+      imgUrl="http://placekitten.com/400/300"
+      phone="9874563210"
+      email="abc@abc.com"
+      />
+
+      <ContactCard
+      name="Anshul"
+      imgUrl="http://placekitten.com/200/100"
+      phone="9874563210"
+      email="abc@abc.com"
+      />
+    </div>
   );
 }
 
